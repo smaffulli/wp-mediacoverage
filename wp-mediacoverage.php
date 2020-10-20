@@ -93,7 +93,7 @@ function custom_post_type() {
 		'label'                 => __( 'News mention', 'text_domain' ),
 		'description'           => __( 'LIst of mentions from media outlets.', 'text_domain' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor', 'post-formats' ),
+		'supports'              => array( 'title', 'editor', 'custom-fields' ),
 		'taxonomies'            => array( 'outlets' ),
 		'hierarchical'          => false,
 		'public'                => true,
