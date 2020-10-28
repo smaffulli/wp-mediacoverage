@@ -61,13 +61,13 @@ if ( ! function_exists('custom_post_type') ) {
 function custom_post_type() {
 
 	$labels = array(
-		'name'                  => _x( 'Media coverage', 'Post Type General Name', 'text_domain' ),
-		'singular_name'         => _x( 'News mention', 'Post Type Singular Name', 'text_domain' ),
+		'name'                  => _x( 'Media Coverage', 'Post Type General Name', 'text_domain' ),
+		'singular_name'         => _x( 'News Mention', 'Post Type Singular Name', 'text_domain' ),
 		'menu_name'             => __( 'Media Coverage', 'text_domain' ),
-		'name_admin_bar'        => __( 'Post Type', 'text_domain' ),
+		'name_admin_bar'        => __( 'News Mention', 'text_domain' ),
 		'archives'              => __( 'Media Coverage', 'text_domain' ),
-		'attributes'            => __( 'Item Attributes', 'text_domain' ),
-		'parent_item_colon'     => __( 'Parent Item:', 'text_domain' ),
+		'attributes'            => __( 'Media Coverage Attributes', 'text_domain' ),
+		'parent_item_colon'     => __( 'Parent Media Coverage:', 'text_domain' ),
 		'all_items'             => __( 'All Media Coverage', 'text_domain' ),
 		'add_new_item'          => __( 'Add Media Mention', 'text_domain' ),
 		'add_new'               => __( 'Add New Mention', 'text_domain' ),
